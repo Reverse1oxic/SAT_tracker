@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import axios from 'axios'; // Import axios if not already installed
+import border from './styles';
 
 const Leaderboard = () => {
   const [leaderboardData, setLeaderboardData] = useState([]);
@@ -19,7 +20,7 @@ const Leaderboard = () => {
   }, []);
 
   return (
-    <View style={styles.leaderboardContainer}>
+    <View style={border.Leaderboard_border}>
       <Text style={styles.leaderboardTitle}>Leaderboard</Text>
       {leaderboardData.map((entry, index) => (
         <View key={index} style={styles.leaderboardEntry}>
