@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 const border = StyleSheet.create({
   header_border: {
-    flex: 0.4,
+    flex: 0.1,
     backgroundColor: 'white',
     borderRadius: 20,
     padding: 20,
@@ -17,7 +17,7 @@ const border = StyleSheet.create({
     elevation: 5,
   },
   Leaderboard_border: {
-    flex: 0.15,
+    flex: 0.2,
     marginBottom: -500,
     backgroundColor: 'white',
     borderRadius: 20,

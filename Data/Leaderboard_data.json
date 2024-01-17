@@ -1,5 +1,9 @@
+//Max names at 5 so can fit leaderboard border
+
 [
   { "name": "Femi", "hoursStudied": 3 },
   { "name": "Shryia", "hoursStudied": 2 },
-  { "name": "Daniel", "hoursStudied": 1}
+  { "name": "Daniel", "hoursStudied": 1},
+  { "name": "David", "hoursStudied": 1},
+  { "name": "Mom", "hoursStudied": 0}
 ]
